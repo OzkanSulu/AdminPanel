@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import "./variable.scss";
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.main{
+  font-family: 'Poppins', sans-serif;
+  background-color: $main-bg;
+  color:$main-color;
+}
+
+.container{
+  display: flex;
+}
+.menuContainer{
+  width: 250px;
+  padding: 0px 20px;
+  border-right: 1px solid $soft-bg;
+  
+}
+
+.contentContainer{
+  width: 100%;
+ 
+}
+
